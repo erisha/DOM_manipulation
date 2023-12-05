@@ -32,6 +32,8 @@ for (let linkObjects of menuLinks) {
 
 //// ===== Part 2 Assignment =====\\\\\\
 
+// 3. Creating the Submenu
+
 const subMenuEl = document.querySelector('#sub-menu');
 subMenuEl.style.height = '100%';
 subMenuEl.style.backgroundColor = 'var(--sub-menu-bg)';
@@ -40,6 +42,7 @@ subMenuEl.classList.add('flex-around');
 subMenuEl.style.position = 'absolute';
 subMenuEl.style.top = '0';
 
+// 4. Adding Menu Interactions
 // get all a tags
 const topMenuLinks = document.querySelectorAll('a');
 console.log(topMenuLinks);
